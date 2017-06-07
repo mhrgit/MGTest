@@ -1,10 +1,12 @@
-﻿namespace MGTest.Core.Modules
+﻿using System;
+
+namespace MGTest.Core.Modules
 {
     public class CalculationModule
     {
         public static decimal GetCashValue(decimal cash)
         {
-            return cash/100;
+            return decimal.Round(cash/100, 2, MidpointRounding.AwayFromZero);
         }
     }
 }

@@ -1,4 +1,6 @@
-﻿namespace MGTest.Core.Entities
+﻿using System;
+
+namespace MGTest.Core.Entities
 {
     public class Stock
     {
@@ -14,7 +16,7 @@
 
         public decimal GetValuationOfPostition()
         {
-            return Holdings*MarketPrice;
+            return decimal.Round(Holdings*MarketPrice, 2, MidpointRounding.AwayFromZero);
         }
     }
 }
