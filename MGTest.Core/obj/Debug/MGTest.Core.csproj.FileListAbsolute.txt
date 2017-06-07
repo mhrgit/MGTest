@@ -1,0 +1,5 @@
+C:\MGTest\MGTest.Core\obj\Debug\MGTest.Core.csprojResolveAssemblyReference.cache
+C:\MGTest\MGTest.Core\bin\Debug\MGTest.Core.dll
+C:\MGTest\MGTest.Core\bin\Debug\MGTest.Core.pdb
+C:\MGTest\MGTest.Core\obj\Debug\MGTest.Core.dll
+C:\MGTest\MGTest.Core\obj\Debug\MGTest.Core.pdb

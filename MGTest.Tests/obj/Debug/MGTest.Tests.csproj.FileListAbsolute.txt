@@ -1,0 +1,9 @@
+C:\MGTest\MGTest.Tests\obj\Debug\MGTest.Tests.csprojResolveAssemblyReference.cache
+C:\MGTest\MGTest.Tests\bin\Debug\MGTest.Tests.dll
+C:\MGTest\MGTest.Tests\bin\Debug\MGTest.Tests.pdb
+C:\MGTest\MGTest.Tests\bin\Debug\MGTest.Core.dll
+C:\MGTest\MGTest.Tests\bin\Debug\nunit.framework.dll
+C:\MGTest\MGTest.Tests\bin\Debug\MGTest.Core.pdb
+C:\MGTest\MGTest.Tests\bin\Debug\nunit.framework.xml
+C:\MGTest\MGTest.Tests\obj\Debug\MGTest.Tests.dll
+C:\MGTest\MGTest.Tests\obj\Debug\MGTest.Tests.pdb
