@@ -2,9 +2,9 @@
 {
     public class CalculationModule
     {
-        public static decimal GetMarketValue(int holdings, decimal marketPrice)
+        public static decimal GetCashValue(decimal cash)
         {
-            return holdings*marketPrice;
+            return cash/100;
         }
     }
 }
