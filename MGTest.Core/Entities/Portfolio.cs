@@ -18,9 +18,7 @@ namespace MGTest.Core.Entities
 
         public decimal GetSumOfAllPositions()
         {
-            var total = Stocks.Sum(stock => stock.GetValuationOfPostition());
-
-            return total + CalculationModule.GetCashValue(Cash);
+            return Stocks.Sum(stock => stock.GetValuationOfPostition());
         }
     }
 

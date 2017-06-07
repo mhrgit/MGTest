@@ -24,7 +24,7 @@ namespace MGTest.Tests.Requirements1Tests
             var cash = 12000;
 
             var portfolio = new Portfolio(stocks, cash);
-            var expectedResult = 920;
+            var expectedResult = 800;
             var result = portfolio.GetSumOfAllPositions();
 
             Assert.AreEqual(expectedResult, result);
@@ -43,7 +43,7 @@ namespace MGTest.Tests.Requirements1Tests
             var cash = 12000;
 
             var portfolio = new Portfolio(stocks, cash);
-            var expectedResult = 1023.73;
+            var expectedResult = 903.73;
             var result = portfolio.GetSumOfAllPositions();
 
             Assert.AreEqual(expectedResult, result);
