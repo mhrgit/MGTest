@@ -1,7 +1,7 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
-using MGTest.Core.Modules;
 
 namespace MGTest.Core.Entities
 {
@@ -19,6 +19,11 @@ namespace MGTest.Core.Entities
         public decimal GetSumOfAllPositions()
         {
             return Stocks.Sum(stock => stock.GetValuationOfPostition());
+        }
+
+        public decimal GetCashValue()
+        {
+            return decimal.Round(Cash / 100, 2, MidpointRounding.AwayFromZero);
         }
     }
 

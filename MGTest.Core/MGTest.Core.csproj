@@ -42,7 +42,6 @@
   <ItemGroup>
     <Compile Include="Entities\Portfolio.cs" />
     <Compile Include="Entities\Stock.cs" />
-    <Compile Include="Modules\CalculationModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

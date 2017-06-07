@@ -48,6 +48,7 @@
     <Compile Include="Requirements1Tests\Criteria1ATests.cs" />
     <Compile Include="Requirements1Tests\Criteria1BTests.cs" />
     <Compile Include="Requirements1Tests\Criteria1CTests.cs" />
+    <Compile Include="Requirements1Tests\Criteria1DTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

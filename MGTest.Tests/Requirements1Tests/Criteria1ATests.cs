@@ -1,5 +1,4 @@
-﻿using MGTest.Core.Modules;
-using MGTest.Core.Entities;
+﻿using MGTest.Core.Entities;
 using NUnit.Framework;
 
 namespace MGTest.Tests.Requirements1Tests
